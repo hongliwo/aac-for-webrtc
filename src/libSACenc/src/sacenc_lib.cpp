@@ -1994,8 +1994,8 @@ FDK_SACENC_ERROR FDK_sacenc_getLibInfo(LIB_INFO *info) {
   }
 
   info[i].module_id = FDK_MPSENC;
-  info[i].build_date = SACENC_LIB_BUILD_DATE;
-  info[i].build_time = SACENC_LIB_BUILD_TIME;
+  info[i].build_date = SACENC_LIB_BUILD_DATE "";
+  info[i].build_time = SACENC_LIB_BUILD_TIME "";
   info[i].title = SACENC_LIB_TITLE;
   info[i].version = LIB_VERSION(SACENC_LIB_VL0, SACENC_LIB_VL1, SACENC_LIB_VL2);
   LIB_VERSION_STRING(&info[i]);

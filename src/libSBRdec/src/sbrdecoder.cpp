@@ -1961,8 +1961,8 @@ INT sbrDecoder_GetLibInfo(LIB_INFO *info) {
   info->version =
       LIB_VERSION(SBRDECODER_LIB_VL0, SBRDECODER_LIB_VL1, SBRDECODER_LIB_VL2);
   LIB_VERSION_STRING(info);
-  info->build_date = SBRDECODER_LIB_BUILD_DATE;
-  info->build_time = SBRDECODER_LIB_BUILD_TIME;
+  info->build_date = SBRDECODER_LIB_BUILD_DATE "";
+  info->build_time = SBRDECODER_LIB_BUILD_TIME "";
   info->title = SBRDECODER_LIB_TITLE;
 
   /* Set flags */

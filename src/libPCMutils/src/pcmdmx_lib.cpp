@@ -2641,8 +2641,8 @@ PCMDMX_ERROR pcmDmx_GetLibInfo(LIB_INFO *info) {
   info[i].version =
       LIB_VERSION(PCMUTIL_LIB_VL0, PCMUTIL_LIB_VL1, PCMUTIL_LIB_VL2);
   LIB_VERSION_STRING(info + i);
-  info[i].build_date = PCMUTIL_LIB_BUILD_DATE;
-  info[i].build_time = PCMUTIL_LIB_BUILD_TIME;
+  info[i].build_date = PCMUTIL_LIB_BUILD_DATE "";
+  info[i].build_time = PCMUTIL_LIB_BUILD_TIME "";
   info[i].title = PCMDMX_LIB_TITLE;
 
   /* Set flags */

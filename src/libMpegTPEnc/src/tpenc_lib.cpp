@@ -651,8 +651,8 @@ TRANSPORTENC_ERROR transportEnc_GetLibInfo(LIB_INFO *info) {
   info->build_date = "";
   info->build_time = "";
 #else
-  info->build_date = __DATE__;
-  info->build_time = __TIME__;
+  info->build_date = __DATE__ "";
+  info->build_time = __TIME__ "";
 #endif
   info->title = TP_LIB_TITLE;
 

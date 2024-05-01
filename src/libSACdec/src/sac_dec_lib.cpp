@@ -1808,8 +1808,8 @@ int mpegSurroundDecoder_GetLibInfo(LIB_INFO *info) {
   info->build_date = "";
   info->build_time = "";
 #else
-  info->build_date = __DATE__;
-  info->build_time = __TIME__;
+  info->build_date = __DATE__ "";
+  info->build_time = __TIME__ "";
 #endif
   info->title = "MPEG Surround Decoder";
   info->version = LIB_VERSION(SACDEC_VL0, SACDEC_VL1, SACDEC_VL2);
