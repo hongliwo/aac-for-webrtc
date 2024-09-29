@@ -282,7 +282,9 @@ static_library("aac") {
     "src/libSYS/src/syslib_channelMapDescr.cpp",
   ]
 
-  cflags = [ "-Wno-unreachable-code", "-Wno-error" ]
+  cflags = [ "-Wno-unreachable-code", "-Wno-error", "-Wno-unused-but-set-variable", ]
+
+  cflags_cc = [ "-Wno-unreachable-code", "-Wno-error","-Wno-unused-but-set-variable", ]
 
   if(is_win){
     sources += [
